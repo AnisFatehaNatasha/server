@@ -3,8 +3,6 @@ import java.io.*;
 
 public class server extends Thread
 {
-public static void main(String[]args) throws IOException
-{
    private ServerSocket serverSocket;
    String clientmsg = "";
 
@@ -44,4 +42,4 @@ public static void main(String[]args) throws IOException
         }
     }
 }
-}
+
