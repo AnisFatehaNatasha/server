@@ -1,9 +1,6 @@
 import java.net.*;
 import java.io.*;
 
-public main(){
-public static void main (String args[]) throws IOException
-{
 public class server extends Thread
 {
    private ServerSocket serverSocket;
@@ -44,7 +41,5 @@ public class server extends Thread
             }
         }
     }
-}
-}
 }
 
