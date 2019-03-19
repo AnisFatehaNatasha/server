@@ -14,8 +14,7 @@ public class SimpleServer extends Thread
 
     public void run()
     {
-        while(true)
-        {
+        while(true){
             try
             {
                 System.out.println("Waiting for client on port " + serverSocket.getLocalPort() + "...");
@@ -42,3 +41,4 @@ public class SimpleServer extends Thread
             }
         }
     }
+}
