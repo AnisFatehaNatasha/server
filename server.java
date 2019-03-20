@@ -16,3 +16,4 @@ public class server{
             outToClient.writeBytes(capitalizedSentence);
         }
     }
+}
