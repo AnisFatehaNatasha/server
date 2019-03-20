@@ -5,7 +5,7 @@ public class server{
     public static void main(String args[]) throws Exception {
         String clientSentence;
         String capitalizedSentence;
-        ServerSocket welcomeSocket = new ServerSocket(6789);
+        ServerSocket welcomeSocket = new ServerSocket(5000);
 
         while(true) {
             Socket connectionSocket = welcomeSocket.accept();
